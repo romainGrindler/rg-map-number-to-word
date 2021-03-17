@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Small UI to play with rmntw API</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+
+<!-- swagger access -->
+<p><a href="/swagger-ui.html">rg map number to word swagger</a></p>
+
+<!-- input area -->
+<div>
+    <label for="numberField">What is the number to convert?</label>
+    <input name="myNumber" id="numberField">
+    <button id="convertButton" type="button">Convert!</button>
+</div>
+
+<!-- Output area-->
+<div hidden id="displayTextArea">
+    <textarea class="displayTextAreaContain" cols="100" id="displayTextAreaContainer" rows="5"></textarea>
+</div>
+
+<!-- Error area -->
+<div hidden id="errorTextArea"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
